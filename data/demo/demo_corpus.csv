@@ -1,0 +1,301 @@
+id,source,url,date,title,text,lang,lang_gold,sentiment_gold,topic_gold,ambiguous,sentiment_debatable,split
+1,Forum Lipa,https://example.com/post/1,2025-12-10,Događaji na kampusu,"Vecer stand-up komedije u klubu bila je urnebesna, plakala sam od smijeha.",,hr,positive,events,False,False,dev
+2,Lipa Confessions,https://example.com/post/2,2026-01-12,,"Danas u menzi pasulj i hleb, jeftino i ukusno, nema greške.",,sr,positive,cafeteria,False,False,dev
+3,Forum Lipa,https://example.com/post/3,2026-03-12,LipaNet ne radi?,Opet ne radi LipaNet u čitaonici. Kako da učim kad ne mogu ni skripte skinuti?,,bs,negative,wifi,False,False,test
+4,Kampus Chat,https://example.com/post/4,2026-06-29,,Nije fer što prof. Javorović ne objavljuje bodove sa vježbi. Kako da znamo gdje smo?,,bs,negative,professors,False,False,test
+5,Kampus Chat,https://example.com/post/5,2026-03-29,,"Predavanje o kriptografiji je bilo top, sala puna do zadnjeg mjesta.",,bs,positive,professors,False,False,test
+6,Kampus Chat,https://example.com/post/6,2025-10-28,,"Not gonna lie, I didn't expect to like this course, but prof. Hrastic made it fun.",,en,positive,professors,False,False,dev
+7,Forum Lipa,https://example.com/post/7,2026-05-16,Campus events,"The film night in the dorm was so cozy, we should do it every month.",,en,positive,events,False,False,dev
+8,Novine Brezovac komentari,https://example.com/post/8,2026-09-23,Lipa Fest ove godine veći nego ikad,"Žurka je otkazana u poslednjem trenutku, a mi smo već kupili karte.",,sr,negative,events,False,False,dev
+9,Lipa Confessions,https://example.com/post/9,2026-01-06,,The heating in building C is broken and it's 12 degrees in the lecture hall.,,en,negative,other,False,False,test
+10,Novine Brezovac komentari,https://example.com/post/10,2025-09-29,Univerzitet Lipa mijenja pravila ispitnih rokova,"Statistika položena sa osmicom, ne mogu vjerovat 🥹",,bs,positive,exams,False,False,test
+11,Forum Lipa,https://example.com/post/11,2025-10-12,Razno,ma super,,bs,positive,other,False,True,dev
+12,Novine Brezovac komentari,https://example.com/post/12,2026-02-01,Studentska menza u Brezovcu poskupljuje obroke,What time does the cafeteria stop serving breakfast?,,en,neutral,cafeteria,False,False,test
+13,Kampus Chat,https://example.com/post/13,2025-10-11,,"super, opet nema wifi 🙃",,bs,negative,wifi,False,False,dev
+14,Novine Brezovac komentari,https://example.com/post/14,2026-08-11,Studentska menza u Brezovcu poskupljuje obroke,Kava iz aparata košta dva eura i ima okus po plastici.,,hr,negative,cafeteria,False,False,dev
+15,Kampus Chat,https://example.com/post/15,2025-11-02,,Dom je okrečen i napokon ima toplu vodu cijeli dan.,,bs,positive,other,False,False,test
+16,Forum Lipa,https://example.com/post/16,2026-01-31,Ispitni rok,"Test su ispravljali dvije sedmice, a meni ocjena treba za stipendiju do petka.",,bs,negative,exams,False,False,dev
+17,Novine Brezovac komentari,https://example.com/post/17,2026-08-08,Gužve na parkingu kod Univerziteta Lipa,Je li parking za studente i dalje 1 KM po satu ili su promijenili cijenu?,,bs,neutral,parking,False,False,dev
+18,Forum Lipa,https://example.com/post/18,2026-04-14,Parking na kampusu,"Kazna za parrkiranje 30 eura, a znak je skriven iza grma.",,hr,negative,parking,False,False,test
+19,Forum Lipa,https://example.com/post/19,2026-03-29,Upis 2025/26,Da li treba da overim indeks pre upisa ili posle?,,sr,neutral,enrollment,False,False,dev
+20,Kampus Chat,https://example.com/post/20,2026-02-17,,"Dani karijera su u srijedu i četvrtak u velikoj sali, ponesite CV.",,bs,neutral,events,False,False,test
+21,Kampus Chat,https://example.com/post/21,2025-10-29,,"Whoever upgraded the routers in the reading room, thank you, it's finally usable.",,en,positive,wifi,False,False,dev
+22,Novine Brezovac komentari,https://example.com/post/22,2026-06-02,Studentska menza u Brezovcu poskupljuje obroke,The Friday soup at the cafeteria is better than my mom's. Don't tell her.,,en,positive,cafeteria,False,False,test
+23,Lipa Confessions,https://example.com/post/23,2026-05-22,,Can't say I hated the karaoke night 😂,,en,positive,events,False,True,test
+24,Forum Lipa,https://example.com/post/24,2026-03-14,Rezultati ispita,"Ispit je trajao četiri sata, bez pauze. Mozak mi je kaša.",,sr,negative,exams,False,False,dev
+25,Kampus Chat,https://example.com/post/25,2025-12-29,,Prijave za turnir u šahu su otvorene do srijede.,,bs,neutral,events,False,False,test
+26,Kampus Chat,https://example.com/post/26,2026-03-15,,"LipaNet me izbacuje svaki put kad zaključam laptop, pa opet kucam lozinku.",,bs,negative,wifi,False,False,dev
+27,Kampus Chat,https://example.com/post/27,2025-11-20,,ok,,bs,neutral,other,False,False,dev
+28,Forum Lipa,https://example.com/post/28,2026-02-12,Konsultacije,"Prof. Smrekić nam je poslao sve materijale prije predavanja, rijetko ko to radi.",,bs,positive,professors,False,False,test
+29,Forum Lipa,https://example.com/post/29,2026-06-15,LipaNet ne radi?,"Od kad su stavili nove rutere u čitaonici, sve leti. Konačno nešto kako treba.",,bs,positive,wifi,False,False,test
+30,Kampus Chat,https://example.com/post/30,2026-03-19,,Does anyone know if the retake exam is in room 204 or 210?,,en,neutral,exams,False,False,dev
+31,Novine Brezovac komentari,https://example.com/post/31,2025-12-30,Lipa Fest ove godine veći nego ikad,"Volunteers needed for Lipa Fest setup on Thursday, message the student union.",,en,neutral,events,False,False,dev
+32,Lipa Confessions,https://example.com/post/32,2026-01-11,,uzas,,bs,negative,other,False,False,test
+33,Forum Lipa,https://example.com/post/33,2025-11-19,LipaNet ne radi?,"Konačno radi wifi u dvorani 5, hvala informatičarima!",,hr,positive,wifi,False,False,test
+34,Forum Lipa,https://example.com/post/34,2026-06-28,Menza,"Kahva iz automata u holu je katastrofa, ko voda od čarapa.",,bs,negative,cafeteria,False,False,test
+35,Forum Lipa,https://example.com/post/35,2026-03-12,Internet u domu,"sta je sa netom u biblioteci, nista ne radi, a sutra je rok 😡",,sr,negative,wifi,False,False,test
+36,Forum Lipa,https://example.com/post/36,2026-03-24,LipaNet ne radi?,Kako se spaja na LipaNet sa novog laptopa? Treba li neki certifikat?,,bs,neutral,wifi,False,False,test
+37,Kampus Chat,https://example.com/post/37,2026-06-30,,Treći put idem u studentsku službu zbog iste potvrde. Svaki put fali nešto drugo.,,bs,negative,enrollment,False,False,test
+38,Lipa Confessions,https://example.com/post/38,2026-05-01,,Ispit je pomjeren za ponedjeljak u devet.,,bs,neutral,exams,True,False,dev
+39,Kampus Chat,https://example.com/post/39,2025-12-29,,"Novi parking kod sportske dvorane je odličan, uvijek ima mjesta.",,bs,positive,parking,False,False,test
+40,Forum Lipa,https://example.com/post/40,2026-03-20,LipaNet ne radi?,"Wifi u biblioteci pada svakih 10 minuta, a ja predajem seminarski za sat vremena 😩",,bs,negative,wifi,False,False,dev
+41,Kampus Chat,https://example.com/post/41,2026-03-13,,Da li je neko video spisak pitanja za usmeni deo ispita?,,sr,neutral,exams,False,False,test
+42,Kampus Chat,https://example.com/post/42,2026-08-05,,Kada izlaze rezultati kolokvija? Prošao je već tjedan dana.,,hr,neutral,exams,False,False,dev
+43,Lipa Confessions,https://example.com/post/43,2026-03-18,,"Porcije u menzi su sve manje, a cijena ista. Za dva sata sam opet gladan.",,bs,negative,cafeteria,False,False,test
+44,Forum Lipa,https://example.com/post/44,2026-03-13,Kolokviji - iskustva,sta je bilo na ispitu u cetvrtak? pitam za druga,,bs,neutral,exams,False,False,test
+45,Lipa Confessions,https://example.com/post/45,2025-12-17,,Ko organizuje izlet na planinu iznad Brezovca? Imam par pitanja.,,bs,neutral,events,False,False,test
+46,Lipa Confessions,https://example.com/post/46,2026-06-21,,Prof. Jasenović kasni na svako predavanje i onda nas pušta ranije. Ništa ne stignemo.,,hr,negative,professors,False,False,test
+47,Forum Lipa,https://example.com/post/47,2026-01-18,Studentska služba,"studentska služba lost my papers, opet moram sve ispočetka",,mixed,negative,enrollment,False,False,dev
+48,Forum Lipa,https://example.com/post/48,2026-03-21,Cafeteria food,The cafeteria changed the menu. Bold move.,,en,neutral,cafeteria,False,True,dev
+49,Forum Lipa,https://example.com/post/49,2025-12-02,Retake exams,That stats exam was brutal. Half the questions weren't even covered in class.,,en,negative,exams,False,False,dev
+50,Forum Lipa,https://example.com/post/50,2025-09-03,Ispitni rok,passed sam!!! finally mogu spavat 😭,,mixed,positive,exams,False,False,dev
+51,Kampus Chat,https://example.com/post/51,2026-07-04,,"Danas u menzi pasulj i hleb, jeftino i ukusno, nema greske.",,sr,positive,cafeteria,False,False,dev
+52,Lipa Confessions,https://example.com/post/52,2026-09-15,,"Upis na drugu godinu prošao je bez ikakvih problema, sve online.",,hr,positive,enrollment,False,False,test
+53,Kampus Chat,https://example.com/post/53,2026-09-13,,Predavanje gosta iz Brezovca o veštačkoj inteligenciji bilo je odlično!,,sr,positive,events,False,False,dev
+54,Kampus Chat,https://example.com/post/54,2026-04-23,,"Položio sam sve ispite u junskom roku, ne mogu da verujem 🥳",,sr,positive,exams,False,False,dev
+55,Forum Lipa,https://example.com/post/55,2025-10-17,Profesori - iskustva,"Nije loše predavanje danas, čak sam i shvatio nešto 😅",,bs,positive,professors,False,False,dev
+56,Kampus Chat,https://example.com/post/56,2026-06-23,,Pica u menzi je bila hladna i tvrda kao karton.,,sr,negative,cafeteria,False,False,dev
+57,Kampus Chat,https://example.com/post/57,2026-01-22,,Found a hair in my soup at the cafeteria. Not ordering that again.,,en,negative,cafeteria,False,False,test
+58,Lipa Confessions,https://example.com/post/58,2026-01-17,,Na ispitu su bila tri zadatka koja nikad nismo radili. Nikad.,,bs,negative,exams,False,False,dev
+59,Forum Lipa,https://example.com/post/59,2026-03-31,Studentska služba,eLipa portal pao baš na zadnji dan prijave ispita. Naravno.,,bs,negative,enrollment,False,False,test
+60,Forum Lipa,https://example.com/post/60,2025-11-19,Konsultacije,Konsultacije kod prof. Hrastić su sada utorkom od 12 do 13.,,bs,neutral,professors,False,False,dev
+61,Forum Lipa,https://example.com/post/61,2026-05-24,Događaji na kampusu,"Večer stand-up komedije u klubu bila je urnebesna, plakala sam od smijeha.",,hr,positive,events,False,False,dev
+62,Forum Lipa,https://example.com/post/62,2026-07-07,Random,ugh,,en,negative,other,False,False,test
+63,Forum Lipa,https://example.com/post/63,2026-04-07,Gdje jesti na kampusu?,jel menza open tokom praznika or not?,,mixed,neutral,cafeteria,False,False,dev
+64,Forum Lipa,https://example.com/post/64,2026-05-29,Parking na kampusu,"Konačno su označili parkirna mjesta, puno je bolje nego prošle godine.",,hr,positive,parking,False,False,dev
+65,Lipa Confessions,https://example.com/post/65,2026-05-18,,"Doc. Borović je jedini koji zapravo odgovara na pitanja na forumu, svaka čast.",,hr,positive,professors,False,False,dev
+66,Kampus Chat,https://example.com/post/66,2026-05-19,,"Volonteri na Danima karijera su bili super, sve organizovano kako treba.",,bs,positive,events,False,False,dev
+67,Forum Lipa,https://example.com/post/67,2025-10-24,Parking na kampusu,Je li istina da će parkiralište iza knjižnice postati naplatno?,,hr,neutral,parking,False,False,dev
+68,Lipa Confessions,https://example.com/post/68,2026-06-23,,"Enrollment took 5 minutes this year, honestly impressed",,en,positive,enrollment,False,False,test
+69,Kampus Chat,https://example.com/post/69,2026-01-17,,E baš vam hvala što ste rezultate objavili u ponoć pred praznik. Divno.,,sr,negative,exams,False,False,dev
+70,Kampus Chat,https://example.com/post/70,2025-11-06,,"Predstava dramske sekcije bila je odlicna, aplauz pet minuta!",,bs,positive,events,False,False,dev
+71,Forum Lipa,https://example.com/post/71,2026-04-24,Enrollment questions,The eLipa portal logged me out five times while I was enrolling. Great system.,,en,negative,enrollment,False,False,dev
+72,Forum Lipa,https://example.com/post/72,2025-11-08,Studentska služba,"Platila sam školarinu prije dvije sedmice, a na eLipi i dalje piše da dugujem.",,bs,negative,enrollment,False,False,dev
+73,Kampus Chat,https://example.com/post/73,2025-09-19,,Asistent Topolic je opet kasnio 40 minuta i onda drzao predavanje do 8 navecer. Haman sam zaspao.,,bs,negative,professors,False,False,test
+74,Forum Lipa,https://example.com/post/74,2026-09-24,Rezultati ispita,"kolokvij iz statistike was a nightmare, pola nas nije ni završilo",,mixed,negative,exams,False,False,dev
+75,Lipa Confessions,https://example.com/post/75,2026-01-09,,"Lipa Fest was amazing, best night of the semester 🎶",,en,positive,events,False,False,dev
+76,Kampus Chat,https://example.com/post/76,2026-05-11,,"dobio sam desetku iz programiranja, let's goooo",,mixed,positive,exams,False,False,dev
+77,Forum Lipa,https://example.com/post/77,2026-08-14,Lecturer reviews,"Asistent Vrbic remembered my name after one class. Small thing, but it made my day.",,en,positive,professors,False,False,dev
+78,Kampus Chat,https://example.com/post/78,2026-08-22,,Sustav za upis se srušio tri puta. Tko je ovo programirao?,,hr,negative,enrollment,False,False,dev
+79,Lipa Confessions,https://example.com/post/79,2026-06-15,,When does enrollment for the spring semester open for exchange students?,,en,neutral,enrollment,False,False,test
+80,Novine Brezovac komentari,https://example.com/post/80,2026-05-22,Lipa Fest ove godine veći nego ikad,"Lijep dan za učenje vani, cijela ekipa je na travi ispred fakulteta.",,bs,positive,events,True,False,test
+81,Novine Brezovac komentari,https://example.com/post/81,2026-03-17,Novi LipaNet: brži internet na cijelom kampusu?,Internet u domu ne radi već dva dana. Da li neko zna šta se dešava?,,sr,negative,wifi,False,False,dev
+82,Novine Brezovac komentari,https://example.com/post/82,2026-01-30,Univerzitet Lipa mijenja pravila ispitnih rokova,"Pala sam ispit iz hemije, a učila sam celu nedelju. Nemam reči.",,sr,negative,exams,False,False,dev
+83,Kampus Chat,https://example.com/post/83,2026-04-09,,"Doc. Borovic nam dao assignment za vikend, thanks a lot 🙃",,mixed,negative,professors,False,False,dev
+84,Novine Brezovac komentari,https://example.com/post/84,2026-01-02,Gužve na parkingu kod Univerziteta Lipa,"Nema mjesta na parkiralištu, a vlak iz Brezovca kasni svaki dan. Što da radim?",,hr,negative,parking,False,False,test
+85,Forum Lipa,https://example.com/post/85,2026-01-12,Gdje jesti na kampusu?,"Doručak u menzi je najbolji deo dana, palačinke su odlične.",,sr,positive,cafeteria,False,False,test
+86,Kampus Chat,https://example.com/post/86,2026-05-20,,"Treba da predam dokumenta za upis do petka, gde je studentska služba?",,sr,neutral,enrollment,False,False,dev
+87,Forum Lipa,https://example.com/post/87,2026-02-03,Cafeteria food,Paid for a full meal and got three spoons of rice. Seriously?,,en,negative,cafeteria,False,False,test
+88,Forum Lipa,https://example.com/post/88,2025-10-17,Studentska služba,"Gdje se vadi studentska iskaznica, na šalteru 3 ili 4?",,bs,neutral,enrollment,False,False,test
+89,Forum Lipa,https://example.com/post/89,2026-03-11,Internet u domu,"Internet u studentskom domu je sporiji nego prošle godine, a cijena je ista.",,hr,negative,wifi,False,False,test
+90,Forum Lipa,https://example.com/post/90,2026-08-16,Gdje jesti na kampusu?,"Ćevapi u menzi petkom su bolji nego u pola grada, ozbiljno.",,bs,positive,cafeteria,False,False,test
+91,Kampus Chat,https://example.com/post/91,2025-10-04,,"Studentska služba radi samo dva sata dnevno, a red je ogroman.",,sr,negative,enrollment,False,False,test
+92,Forum Lipa,https://example.com/post/92,2026-09-09,Lipa Fest,ko ide na career fair sutra? need company,,mixed,neutral,events,False,False,dev
+93,Lipa Confessions,https://example.com/post/93,2026-02-24,,ima li neko parking spot za iznajmiti near kampusa?,,mixed,neutral,parking,False,False,test
+94,Forum Lipa,https://example.com/post/94,2025-09-07,Ispitni rok,Kada je upis ocjena za siječanjski rok?,,hr,neutral,exams,False,False,test
+95,Forum Lipa,https://example.com/post/95,2025-10-16,Off-topic,nice,,en,positive,other,False,False,test
+96,Kampus Chat,https://example.com/post/96,2026-05-17,,"Humanitarni koncert je skupio puno novca, hvala svima koji su došli! ❤️",,hr,positive,events,False,False,dev
+97,Forum Lipa,https://example.com/post/97,2026-05-11,Random,same,,en,neutral,other,False,False,test
+98,Kampus Chat,https://example.com/post/98,2026-08-02,,"Koncert prekinut nakon pola sata zbog kiše, a ulaznice se ne vraćaju.",,bs,negative,events,False,False,test
+99,Forum Lipa,https://example.com/post/99,2026-04-22,Studentska služba,Tri tjedna čekam potvrdu o studiranju. Tri tjedna.,,hr,negative,enrollment,False,False,dev
+100,Forum Lipa,https://example.com/post/100,2026-06-29,Internet u domu,Da li wifi radi u novoj čitaonici ili treba kabl?,,sr,neutral,wifi,False,False,test
+101,Kampus Chat,https://example.com/post/101,2026-01-02,,"Predavanja su dosadna, samo čita slajdove. Šteta vremena.",,hr,negative,professors,False,False,test
+102,Kampus Chat,https://example.com/post/102,2026-03-17,,"menza food je bio cold again, I'm so done",,mixed,negative,cafeteria,False,False,test
+103,Forum Lipa,https://example.com/post/103,2026-02-23,Studentska služba,"upis je bio super smooth ove godine, no lines at all",,mixed,positive,enrollment,False,False,test
+104,Forum Lipa,https://example.com/post/104,2026-06-26,Parking na kampusu,"Rampu na parkingu su napokon popravili, ulaz traje sekundu.",,bs,positive,parking,False,False,dev
+105,Forum Lipa,https://example.com/post/105,2025-10-28,Parking na kampusu,"Kazna za parkiranje 30 eura, a znak je skriven iza grma.",,hr,negative,parking,False,False,test
+106,Forum Lipa,https://example.com/post/106,2026-02-14,Rezultati ispita,"uspjela sam polozit kolokvij iz hemije, sad mogu mirno na more",,bs,positive,exams,False,False,test
+107,Kampus Chat,https://example.com/post/107,2026-02-01,,"Asistent Vrbić je najbolji predavač na fakultetu, sve objasni na primjerima iz stvarnog života.",,bs,positive,professors,False,False,dev
+108,Kampus Chat,https://example.com/post/108,2026-03-15,,jel ima iko net u domu? kod mene nitsa od jutros,,bs,negative,wifi,False,False,test
+109,Forum Lipa,https://example.com/post/109,2026-02-08,Konsultacije,"Prof. Smrekic je honestly legend, objasnio mi sve u 10 minuta",,mixed,positive,professors,False,False,dev
+110,Lipa Confessions,https://example.com/post/110,2025-12-31,,umro sam od smijeha sinoc na stand upu 😂 ekipa iz dramske sekcije top,,bs,positive,events,False,False,test
+111,Lipa Confessions,https://example.com/post/111,2026-06-10,,yay,,en,positive,other,False,False,test
+112,Kampus Chat,https://example.com/post/112,2026-04-28,,Koja je šifra za wifi u novoj zgradi? Na oglasnoj nema ništa.,,bs,neutral,wifi,False,False,dev
+113,Novine Brezovac komentari,https://example.com/post/113,2026-05-06,Gužve na parkingu kod Univerziteta Lipa,"Biciklistička staza do fakulteta je odlična ideja, vozim svaki dan.",,sr,positive,parking,False,False,test
+114,Forum Lipa,https://example.com/post/114,2026-02-17,Događaji na kampusu,Prijave za turnir u sahu su otvorene do srijede.,,bs,neutral,events,False,False,test
+115,Forum Lipa,https://example.com/post/115,2026-09-30,Upis 2025/26,Čekala sam u redu dva sata i onda su rekli da fali jedan papir. Lepo.,,sr,negative,enrollment,False,False,test
+116,Kampus Chat,https://example.com/post/116,2025-09-13,,eLipa mi pokazuje pogresan smjer i niko ne zna kako to ispraviti.,,bs,negative,enrollment,False,False,test
+117,Kampus Chat,https://example.com/post/117,2026-04-06,,"Kruh u menzi je bio star, a juha hladna. Opet.",,hr,negative,cafeteria,False,False,test
+118,Lipa Confessions,https://example.com/post/118,2026-09-29,,Ispit iz programiranja na papiru. Na papiru. 2025. godine. Bravo.,,bs,negative,exams,False,False,test
+119,Lipa Confessions,https://example.com/post/119,2026-09-05,,How do I connect to LipaNet on my phone? The guide only covers laptops.,,en,neutral,wifi,False,False,dev
+120,Kampus Chat,https://example.com/post/120,2025-09-16,,"Neko mi je zagrebao auto na parkingu ipred menze, kamere naravno ne rade.",,bs,negative,parking,False,False,test
+121,Forum Lipa,https://example.com/post/121,2025-10-23,Off-topic,"Nova čitaonica na drugom katu je predivna, tiha i svijetla.",,hr,positive,other,False,False,test
+122,Forum Lipa,https://example.com/post/122,2026-01-06,Gdje jesti na kampusu?,"Nije loše za te novce, ručak u menzi je skroz ok.",,hr,positive,cafeteria,False,True,test
+123,Forum Lipa,https://example.com/post/123,2025-10-12,Kolokviji - iskustva,"kolokvij je bio ok-ish, not sure kako sam prosao",,mixed,neutral,exams,False,True,dev
+124,Forum Lipa,https://example.com/post/124,2026-09-21,Konsultacije,Prof. Javorović nikad ne odgovara na mejlove. Nikad.,,sr,negative,professors,False,False,test
+125,Lipa Confessions,https://example.com/post/125,2026-07-18,,Da li neko ima beleške sa predavanja kod doc. Kestenović od prošle nedelje?,,sr,neutral,professors,False,False,test
+126,Novine Brezovac komentari,https://example.com/post/126,2026-01-22,Lipa Fest ove godine veći nego ikad,Ko organizuje izlet na palninu iznad Brezovca? Imam par pitanja.,,bs,neutral,events,False,False,test
+127,Kampus Chat,https://example.com/post/127,2026-02-26,,Predavanje iz statistike danas počinje pola sata kasnije.,,bs,neutral,professors,True,False,dev
+128,Forum Lipa,https://example.com/post/128,2026-06-14,Campus events,"Career Days start Wednesday in the main hall, 10am to 4pm.",,en,neutral,events,False,False,test
+129,Lipa Confessions,https://example.com/post/129,2025-11-27,,"novi router u labu is a game changer, sve radi",,mixed,positive,wifi,False,False,dev
+130,Forum Lipa,https://example.com/post/130,2025-10-26,Retake exams,Can we bring a calculator to the statistics final?,,en,neutral,exams,False,False,test
+131,Forum Lipa,https://example.com/post/131,2026-07-08,Konsultacije,"Prof. Smrekić je fenomenalan, predavanja su mu kao predstava.",,sr,positive,professors,False,False,dev
+132,Kampus Chat,https://example.com/post/132,2025-11-04,,Prof. Grabovac je danas objasnio gradivo bolje nego cijela knjiga.,,bs,positive,professors,True,False,dev
+133,Lipa Confessions,https://example.com/post/133,2026-05-18,,"Sajam knjiga u auli bio je baš lijep, kupila sam četiri knjige za sitne pare.",,bs,positive,events,False,False,test
+134,Kampus Chat,https://example.com/post/134,2026-03-30,,jel neko zna deadline za upis? on the website ne pise nista,,mixed,neutral,enrollment,False,False,test
+135,Forum Lipa,https://example.com/post/135,2026-03-22,Događaji na kampusu,"Bilo je bolje nego prošle godine, ali to i nije teško.",,bs,neutral,events,False,True,test
+136,Kampus Chat,https://example.com/post/136,2025-09-07,,Menza danas iznenadila. Ne znam još jel to dobro.,,bs,neutral,cafeteria,False,True,dev
+137,Forum Lipa,https://example.com/post/137,2026-01-12,Kolokviji - iskustva,Baš lijepo od profesora da stavi ispit u siječnju dan nakon praznika. Hvala.,,hr,negative,exams,False,False,dev
+138,Forum Lipa,https://example.com/post/138,2026-03-30,Lecturer reviews,Prof. Javorovic cancelled class again without telling anyone. Third time this month.,,en,negative,professors,False,False,test
+139,Kampus Chat,https://example.com/post/139,2026-07-21,,"Prof. Smrekić je stvarno strpljiv, odgovara na mailove i u nedjelju.",,hr,positive,professors,False,False,dev
+140,Kampus Chat,https://example.com/post/140,2026-07-31,,Where do I pick up my student ID card?,,en,neutral,enrollment,False,False,test
+141,Forum Lipa,https://example.com/post/141,2026-05-24,Događaji na kampusu,"bilo je lepo na izletu do jezera, vidimo se sledece godine 🙂",,sr,positive,events,False,False,test
+142,Novine Brezovac komentari,https://example.com/post/142,2026-02-07,Počinje upis na Univerzitet Lipa,"eLipa je crashed na zadnji dan prijave, classic",,mixed,negative,enrollment,False,False,test
+143,Forum Lipa,https://example.com/post/143,2026-02-24,Studentska služba,Trebam li za upis donijeti originalnu svjedodžbu ili je dovoljna preslika?,,hr,neutral,enrollment,False,False,dev
+144,Forum Lipa,https://example.com/post/144,2025-11-24,Exam season,Two exams on the same morning in different buildings. Brilliant planning.,,en,negative,exams,False,False,test
+145,Forum Lipa,https://example.com/post/145,2026-03-25,Studentska služba,"Ovjera semestra je ove godine online, gotovo za dvije minute 👏",,bs,positive,enrollment,False,False,dev
+146,Forum Lipa,https://example.com/post/146,2025-09-14,Upis 2025/26,Upisala sam se. Sad tek počinje.,,bs,neutral,enrollment,False,True,dev
+147,Kampus Chat,https://example.com/post/147,2026-03-20,,Internet u domu ne radi vec dva dana. Da li neko zna sta se desava?,,sr,negative,wifi,False,False,dev
+148,Kampus Chat,https://example.com/post/148,2026-03-18,,"novi wifi je... interesting, let's say",,mixed,negative,wifi,False,True,test
+149,Forum Lipa,https://example.com/post/149,2026-02-02,Razno,Ima li neko punjač za laptop u čitaonici?,,bs,neutral,other,False,False,dev
+150,Forum Lipa,https://example.com/post/150,2025-11-30,Internet u domu,Kako se spaja na LipaNet sa novog laptopa? Trbea li neki certifikat?,,bs,neutral,wifi,False,False,test
+151,Novine Brezovac komentari,https://example.com/post/151,2026-05-04,Novi LipaNet: brži internet na cijelom kampusu?,"Novi wifi u domu je brz kao munja, konačno mogu da gledam predavanja online.",,sr,positive,wifi,False,False,test
+152,Forum Lipa,https://example.com/post/152,2026-01-01,Menza,Pita sa sirom u menzi = jedini razlog što dolazim na predavanja u 8 😂,,bs,positive,cafeteria,False,False,test
+153,Lipa Confessions,https://example.com/post/153,2026-07-27,,"Položila sam ispit iz kemije s peticom, sretna sam do neba!",,hr,positive,exams,False,False,dev
+154,Forum Lipa,https://example.com/post/154,2026-03-13,LipaNet issues,"Can't even open the course page from the lab, the network keeps blocking it.",,en,negative,wifi,False,False,dev
+155,Forum Lipa,https://example.com/post/155,2026-03-25,Ispitni rok,Je li ispit iz ekonomije usmeni ili pismeni ovaj rok?,,bs,neutral,exams,False,False,dev
+156,Kampus Chat,https://example.com/post/156,2025-11-03,,Žurka povodom Dana univerziteta je u subotu od 22h.,,sr,neutral,events,False,False,test
+157,Forum Lipa,https://example.com/post/157,2026-02-03,Rezultati ispita,Na kolokviju nismo smjeli imati ni kalkulator. Tko to radi?,,hr,negative,exams,False,False,test
+158,Lipa Confessions,https://example.com/post/158,2026-01-18,,Is the parking lot behind the library open on Sundays?,,en,neutral,parking,False,False,test
+159,Kampus Chat,https://example.com/post/159,2025-12-24,,Kafa u menzi je hladna i skupa. Ne preporučujem.,,sr,negative,cafeteria,False,False,test
+160,Forum Lipa,https://example.com/post/160,2026-03-20,LipaNet ne radi?,"Na trećem spratu LipaNet uopšte ne hvata, moram sjediti na hodniku da pošaljem mail.",,bs,negative,wifi,False,False,dev
+161,Forum Lipa,https://example.com/post/161,2026-01-29,Rezultati ispita,Pao sam statistiku treći put. Ne znam više šta da radim.,,bs,negative,exams,False,False,dev
+162,Forum Lipa,https://example.com/post/162,2026-03-17,Internet u domu,"LipaNet je spor as hell danas, can't even load eLipa",,mixed,negative,wifi,False,False,dev
+163,Novine Brezovac komentari,https://example.com/post/163,2026-02-18,Studenti ocijenili nastavnike Univerziteta Lipa,Imamo li sutra nastavu ili je odgođena?,,bs,neutral,professors,True,False,dev
+164,Forum Lipa,https://example.com/post/164,2025-10-05,Upis 2025/26,"gdje se vadi studentska iskaznica, na salteru 3 ili 4?",,bs,neutral,enrollment,False,False,test
+165,Novine Brezovac komentari,https://example.com/post/165,2026-05-19,Lipa Fest ove godine veći nego ikad,"Koncert hora u auli bio je prelep, naježila sam se.",,sr,positive,events,False,False,dev
+166,Kampus Chat,https://example.com/post/166,2025-10-15,,"Hvala prof. Grabovac što je produžio rok za seminarske, spasio nas je.",,bs,positive,professors,False,False,dev
+167,Novine Brezovac komentari,https://example.com/post/167,2026-02-06,Gužve na parkingu kod Univerziteta Lipa,"Opet su mi dali kaznu za parking ispred zgrade A, a nigde nema znaka.",,sr,negative,parking,False,False,test
+168,Lipa Confessions,https://example.com/post/168,2025-12-03,,jel neko probao spojiti printer na LipaNet ili to ne ide,,bs,neutral,wifi,False,False,test
+169,Kampus Chat,https://example.com/post/169,2026-07-21,,Prof. Javorović viče na studente kad pitaju nešto. Kako onda da pitamo?,,bs,negative,professors,False,False,dev
+170,Kampus Chat,https://example.com/post/170,2026-06-21,,"Kava u novom kafiću Lipov list je stvarno odlična, preporučujem.",,hr,positive,cafeteria,False,False,dev
+171,Forum Lipa,https://example.com/post/171,2026-04-10,Exam season,Passed! Not bad for someone who started studying two days before 😅,,en,positive,exams,False,False,test
+172,Kampus Chat,https://example.com/post/172,2026-05-23,,"Shoutout to the cleaning staff, the bathrooms in building A are spotless now.",,en,positive,other,False,False,dev
+173,Kampus Chat,https://example.com/post/173,2025-11-22,,Prof. Smrekic reads the slides word for word for ninety minutes. I could do that at home.,,en,negative,professors,False,False,dev
+174,Forum Lipa,https://example.com/post/174,2025-11-03,LipaNet ne radi?,"zna li neko password za guest wifi, need it asap",,mixed,neutral,wifi,False,False,test
+175,Forum Lipa,https://example.com/post/175,2026-03-13,LipaNet ne radi?,"Wifi u bibllioteci pada svakih 10 minuta, a ja predajem seminarski za sat vremena 😩",,bs,negative,wifi,False,False,dev
+176,Novine Brezovac komentari,https://example.com/post/176,2026-06-26,Brezovac: studentski grad,"Lift u zgradi A opet ne radi, peti sprat pješke svaki dan.",,bs,negative,other,False,False,test
+177,Forum Lipa,https://example.com/post/177,2026-03-13,Lecturer reviews,Prof. Brestovac's lectures are certainly... an experience.,,en,negative,professors,False,True,test
+178,Forum Lipa,https://example.com/post/178,2026-05-10,Campus events,The career fair had five companies and all of them were hiring sales reps.,,en,negative,events,False,False,dev
+179,Novine Brezovac komentari,https://example.com/post/179,2026-02-09,Počinje upis na Univerzitet Lipa,"Upis je haos. Tri šaltera, jedna službenica, red do vrata.",,bs,negative,enrollment,False,False,test
+180,Kampus Chat,https://example.com/post/180,2026-03-04,,Parking is impossible after 8am. I'm not even joking.,,en,negative,parking,False,False,test
+181,Kampus Chat,https://example.com/post/181,2026-08-26,,"volonteri na danima kariera su bili super, sve organizovano kako treba",,bs,positive,events,False,False,dev
+182,Kampus Chat,https://example.com/post/182,2025-10-29,,burek u menzi danas was actually fire 🔥,,mixed,positive,cafeteria,False,False,test
+183,Lipa Confessions,https://example.com/post/183,2026-05-24,,umro sam od smijeha sinoc na stand upu 😂 ekkipa iz dramske sekcije top,,bs,positive,events,False,False,test
+184,Forum Lipa,https://example.com/post/184,2026-05-21,Događaji na kampusu,"Turnir u basketu za brucoše bio top, tim sa ekonomije pobijedio 🏀",,bs,positive,events,False,False,test
+185,Kampus Chat,https://example.com/post/185,2026-05-19,,"Predstava dramske sekcije bila je odlična, aplauz pet minuta!",,bs,positive,events,False,False,dev
+186,Kampus Chat,https://example.com/post/186,2026-06-13,,Got a parking ticket while unloading boxes for five minutes. Five.,,en,negative,parking,False,False,test
+187,Kampus Chat,https://example.com/post/187,2026-08-30,,Kada se predaju seminarski radovi za ovaj semestar?,,sr,neutral,exams,False,False,test
+188,Forum Lipa,https://example.com/post/188,2026-04-24,Profesori - iskustva,"Doc. Borović je rekao da će ispit biti ""lak"". Videćemo.",,sr,neutral,professors,False,True,dev
+189,Novine Brezovac komentari,https://example.com/post/189,2026-03-19,Novi LipaNet: brži internet na cijelom kampusu?,"LipaNet pada svaki put kad pada kiša, ozbiljno ne razumem kako.",,sr,negative,wifi,False,False,dev
+190,Novine Brezovac komentari,https://example.com/post/190,2026-01-20,Univerzitet Lipa mijenja pravila ispitnih rokova,Our midterm grades still aren't out after a month. How are we supposed to plan?,,en,negative,exams,False,False,dev
+191,Kampus Chat,https://example.com/post/191,2026-04-23,,The student office lost my documents. Twice.,,en,negative,enrollment,False,False,dev
+192,Novine Brezovac komentari,https://example.com/post/192,2026-02-14,Studenti ocijenili nastavnike Univerziteta Lipa,Prof. Smrekic is hands down the best lecturer I've had at Lipa.,,en,positive,professors,False,False,test
+193,Forum Lipa,https://example.com/post/193,2026-07-04,Rezultati ispita,"Konačno sam položio matematiku posle tri pokušaja, slavim ceo vikend!",,sr,positive,exams,False,False,dev
+194,Forum Lipa,https://example.com/post/194,2025-11-09,Menza,Do koliko sati radi menza subotom?,,bs,neutral,cafeteria,False,False,test
+195,Forum Lipa,https://example.com/post/195,2026-01-12,Studentska služba,eLipa mi pokazuje pogrešan smjer i niko ne zna kako to ispraviti.,,bs,negative,enrollment,False,False,test
+196,Kampus Chat,https://example.com/post/196,2026-01-19,,Ima li neko raspored ispita za januarski rok? Na eLipi još ništa nema.,,bs,neutral,exams,False,False,dev
+197,Kampus Chat,https://example.com/post/197,2026-07-06,,Da li menza prima kartice ili samo keš?,,bs,neutral,cafeteria,False,False,dev
+198,Kampus Chat,https://example.com/post/198,2026-05-28,,"Gdje točno su konzultacije kod prof. Grabovac, u kabinetu ili u knjižnici?",,hr,neutral,professors,False,False,test
+199,Forum Lipa,https://example.com/post/199,2025-12-28,Off-topic,meh,,en,neutral,other,False,True,dev
+200,Lipa Confessions,https://example.com/post/200,2026-01-31,,"Dvorana je bila prepuna, pola nas je pisalo ispit na koljenima.",,bs,negative,exams,True,False,dev
+201,Novine Brezovac komentari,https://example.com/post/201,2025-10-16,Brezovac: studentski grad,da li neko zna da li je biblioteka otvorena sutra,,sr,neutral,other,False,False,test
+202,Kampus Chat,https://example.com/post/202,2025-11-16,,"Well, that was an exam.",,en,neutral,exams,False,True,dev
+203,Kampus Chat,https://example.com/post/203,2026-06-09,,Parking iza zgrade B je opet pun od 7:30. Ko ovo planira?,,bs,negative,parking,False,False,dev
+204,Kampus Chat,https://example.com/post/204,2026-08-17,,Zurka povodom Dana univerziteta je u subotu od 22h.,,sr,neutral,events,False,False,test
+205,Forum Lipa,https://example.com/post/205,2026-03-14,LipaNet ne radi?,Ne radi ni wifi ni struja u laboratoriji 3. Ne mogu vjerovat da je 2026.,,bs,negative,wifi,False,False,test
+206,Kampus Chat,https://example.com/post/206,2026-03-22,,vidimo se,,bs,neutral,other,False,False,test
+207,Forum Lipa,https://example.com/post/207,2026-05-29,Lipa Fest,Vidimo se ispred zgrade B poslije predavanja.,,bs,neutral,events,True,False,test
+208,Forum Lipa,https://example.com/post/208,2026-07-12,Random,Anyone found a black backpack in room 101? It's mine.,,en,neutral,other,False,False,dev
+209,Forum Lipa,https://example.com/post/209,2025-11-13,Događaji na kampusu,"career fair je bio total waste of time, samo dvije firme",,mixed,negative,events,False,False,test
+210,Kampus Chat,https://example.com/post/210,2025-10-30,,"Rezultati kolokvija izašli, 85 bodova 😎 merak",,bs,positive,exams,False,False,test
+211,Kampus Chat,https://example.com/post/211,2026-04-16,,noted,,en,neutral,other,False,False,dev
+212,Forum Lipa,https://example.com/post/212,2026-06-09,Parking na kampusu,Da li se placa parking vikendom?,,bs,neutral,parking,False,False,dev
+213,Kampus Chat,https://example.com/post/213,2026-05-16,,"Koncert hora u auli bio je prelep, najezila sam se.",,sr,positive,events,False,False,dev
+214,Kampus Chat,https://example.com/post/214,2026-01-14,,"Ispit iz fizike je bio užas, pola grupe nije stiglo riješiti ni drugi zadatak.",,hr,negative,exams,False,False,dev
+215,Forum Lipa,https://example.com/post/215,2026-01-07,Lipa Fest,"Tribina o zapošljavanju je u utorak u 17 sati, dvorana 2.",,hr,neutral,events,False,False,dev
+216,Kampus Chat,https://example.com/post/216,2026-05-23,,Zna li netko lozinku za LipaNet-Gost u auli?,,hr,neutral,wifi,False,False,dev
+217,Forum Lipa,https://example.com/post/217,2026-06-15,Konsultacije,Asistent Topolić je opet kasnio 40 minuta i onda držao predavanje do 8 navečer. Haman sam zaspao.,,bs,negative,professors,False,False,test
+218,Novine Brezovac komentari,https://example.com/post/218,2026-05-26,Lipa Fest ove godine veći nego ikad,Promocija diplomaca je zakazana za 15. oktobar.,,sr,neutral,events,False,False,test
+219,Lipa Confessions,https://example.com/post/219,2025-10-05,,"Juha od rajčice danas je bila savršena, tko god je kuhao, bravo.",,hr,positive,cafeteria,False,False,test
+220,Forum Lipa,https://example.com/post/220,2025-12-22,Cafeteria food,Is the cafeteria open during the winter break?,,en,neutral,cafeteria,False,False,test
+221,Novine Brezovac komentari,https://example.com/post/221,2026-01-17,Univerzitet Lipa mijenja pravila ispitnih rokova,pao opet...,,bs,negative,exams,False,False,dev
+222,Forum Lipa,https://example.com/post/222,2026-09-13,Razno,"Grijanje u dvorani 3 ne radi, sjedimo u jaknama cijelo predavanje.",,hr,negative,other,False,False,test
+223,Forum Lipa,https://example.com/post/223,2026-06-29,Lecturer reviews,Does anyone know prof. Javorovic's office hours this week?,,en,neutral,professors,False,False,test
+224,Lipa Confessions,https://example.com/post/224,2026-04-30,,"Nova teta na kasi u menzi je najdraza osoba na kampusu, uvijek nasmijana 😊",,bs,positive,cafeteria,False,False,dev
+225,Novine Brezovac komentari,https://example.com/post/225,2026-07-25,Studentska menza u Brezovcu poskupljuje obroke,"Danas u menzi bio grah i bio je stvarno dobar, svaka čast kuharicama!",,bs,positive,cafeteria,False,False,test
+226,Lipa Confessions,https://example.com/post/226,2026-03-04,,The new vegan option at the cafeteria is actually really good!,,en,positive,cafeteria,False,False,test
+227,Kampus Chat,https://example.com/post/227,2026-02-07,,Brucošijada otkazana dan prije. Pare za karte vraćaju 'u narednom periodu'. Aha.,,bs,negative,events,False,False,dev
+228,Kampus Chat,https://example.com/post/228,2026-02-13,,Kada se uplaćuje druga rata školarine?,,bs,neutral,enrollment,False,False,dev
+229,Novine Brezovac komentari,https://example.com/post/229,2026-01-10,Studenti ocijenili nastavnike Univerziteta Lipa,"Asistent Vrbic je opet cancel-ovao class bez warninga, typical",,mixed,negative,professors,False,False,dev
+230,Novine Brezovac komentari,https://example.com/post/230,2026-03-10,Novi LipaNet: brži internet na cijelom kampusu?,Wifi u knjižnici opet ne radi. Tko je zadužen za to?,,hr,negative,wifi,False,False,dev
+231,Forum Lipa,https://example.com/post/231,2026-09-16,Gdje jesti na kampusu?,ručak u menzi je bio so bad da sam otišao na burek,,mixed,negative,cafeteria,False,False,test
+232,Forum Lipa,https://example.com/post/232,2026-01-10,Profesori - iskustva,"Asistent nam je dao 40 zadataka za zadaću preko vikenda. Hvala, baš.",,bs,negative,professors,False,False,test
+233,Forum Lipa,https://example.com/post/233,2026-09-10,Rezultati ispita,"kad je deadline za seminarski, anyone?",,mixed,neutral,exams,False,False,test
+234,Lipa Confessions,https://example.com/post/234,2026-09-27,,Free parking during exam week is the best decision the university has made.,,en,positive,parking,False,False,test
+235,Novine Brezovac komentari,https://example.com/post/235,2026-06-06,Univerzitet Lipa mijenja pravila ispitnih rokova,"Položila iz prve!!! prof. Brestovac je bio fer, pitanja ko na vježbama 🙌",,bs,positive,exams,False,False,dev
+236,Kampus Chat,https://example.com/post/236,2025-12-23,,"Got an A on the programming project, all those late nights paid off!",,en,positive,exams,False,False,dev
+237,Forum Lipa,https://example.com/post/237,2026-03-19,Gdje jesti na kampusu?,Radi li menza za vriijeme ljetnih praznika?,,hr,neutral,cafeteria,False,False,test
+238,Lipa Confessions,https://example.com/post/238,2026-06-12,,"Prijava za dom je prošla glatko, dobila sam sobu koju sam želela.",,sr,positive,enrollment,False,False,dev
+239,Kampus Chat,https://example.com/post/239,2026-03-16,,The dorm wifi drops every evening at exactly 9pm. Every single evening.,,en,negative,wifi,False,False,dev
+240,Forum Lipa,https://example.com/post/240,2026-03-19,Lipa Fest,Glazba na brucošijadi bila je toliko glasna da se nije moglo razgovarati.,,hr,negative,events,False,False,test
+241,Forum Lipa,https://example.com/post/241,2026-01-20,Exam season,"Retake fee went up again. We're students, not banks.",,en,negative,exams,False,False,dev
+242,Novine Brezovac komentari,https://example.com/post/242,2025-10-26,Počinje upis na Univerzitet Lipa,"Do kada je upis u zimski semestar? Pita drug, nije mogao doći na info dan.",,bs,neutral,enrollment,False,False,dev
+243,Forum Lipa,https://example.com/post/243,2025-10-28,Profesori - iskustva,Prof. Grabovac uvek dođe ranije i ostane posle časa da odgovara na pitanja.,,sr,positive,professors,False,False,dev
+244,Kampus Chat,https://example.com/post/244,2026-01-03,,"Danas opet nema vježbi, a o tome nismo ništa znali.",,bs,negative,professors,True,False,dev
+245,Lipa Confessions,https://example.com/post/245,2025-11-02,,Gdje se predaje indeks za ovjeru semestra?,,bs,neutral,enrollment,False,False,dev
+246,Forum Lipa,https://example.com/post/246,2025-09-14,Lipa Fest,Volonteri za Dane karijera mogu se prijaviti do petka.,,hr,neutral,events,False,False,test
+247,Novine Brezovac komentari,https://example.com/post/247,2026-01-20,Lipa Fest ove godine veći nego ikad,First time at the chess tournament and I won two games!,,en,positive,events,False,False,dev
+248,Kampus Chat,https://example.com/post/248,2026-01-17,,"Oh wonderful, the exam schedule changed again. Love that for us.",,en,negative,exams,False,False,test
+249,Forum Lipa,https://example.com/post/249,2026-03-18,LipaNet ne radi?,"wifi je down opet, I swear ovo je najgori faks",,mixed,negative,wifi,False,False,dev
+250,Novine Brezovac komentari,https://example.com/post/250,2026-03-16,Novi LipaNet: brži internet na cijelom kampusu?,wifi in dorm 2 is so slow i could walk to brezovac faster lol,,en,negative,wifi,False,False,dev
+251,Forum Lipa,https://example.com/post/251,2026-03-05,Kolokviji - iskustva,"Dobio sam šesticu. Prošao sam, valjda je to to.",,sr,neutral,exams,False,True,dev
+252,Lipa Confessions,https://example.com/post/252,2026-03-15,,"Koliko traje usmeni iz anatomije, zna li neko?",,bs,neutral,exams,False,False,test
+253,Forum Lipa,https://example.com/post/253,2026-03-03,Ispitni rok,"rezultati kolokvija izasli, 85 bodova 😎 merak",,bs,positive,exams,False,False,test
+254,Kampus Chat,https://example.com/post/254,2026-02-27,,Menza opet hladna čorba i tvrd hljeb. Platiš 3 KM za ovo?,,bs,negative,cafeteria,False,False,test
+255,Kampus Chat,https://example.com/post/255,2026-06-28,,haha bas dobro,,bs,positive,other,False,False,test
+256,Kampus Chat,https://example.com/post/256,2026-03-16,,Treba li za stipendiju priložiti i potvrdu o prihodima obitelji?,,hr,neutral,enrollment,False,False,dev
+257,Forum Lipa,https://example.com/post/257,2026-02-27,Parking na kampusu,Zašto profesori imaju 50 mjesta a studenti 20? Svako jutro kružim pola sata.,,bs,negative,parking,False,False,dev
+258,Kampus Chat,https://example.com/post/258,2026-03-30,,Wifi in the library is down AGAIN. How are we supposed to submit anything?,,en,negative,wifi,False,False,dev
+259,Forum Lipa,https://example.com/post/259,2026-05-23,Rezultati ispita,Rezultati kolokvija bit će objavljeni na oglasnoj ploči.,,bs,neutral,exams,True,False,dev
+260,Forum Lipa,https://example.com/post/260,2025-11-16,LipaNet issues,"Is there a separate wifi for guests, or do they use LipaNet-Gost?",,en,neutral,wifi,False,False,test
+261,Forum Lipa,https://example.com/post/261,2026-05-13,Upis 2025/26,treba li za upis na master potvrda o prosjeku ili samo diploma,,bs,neutral,enrollment,False,False,test
+262,Kampus Chat,https://example.com/post/262,2026-08-28,,Ispit je bio... zanimljiv.,,bs,neutral,exams,False,True,test
+263,Forum Lipa,https://example.com/post/263,2026-03-05,Parking on campus,"Shoutout to whoever fixed the parking gate, no more 10 minute queues!",,en,positive,parking,False,False,test
+264,Kampus Chat,https://example.com/post/264,2026-09-30,,"Neko mi je zagrebao auto na parkingu ispred menze, kamere naravno ne rade.",,bs,negative,parking,False,False,test
+265,Lipa Confessions,https://example.com/post/265,2025-10-24,,"Prof. Smrekic explains stvari tako jasno, finally razumijem rekurziju",,mixed,positive,professors,False,False,dev
+266,Novine Brezovac komentari,https://example.com/post/266,2026-03-15,Novi LipaNet: brži internet na cijelom kampusu?,jel ima iko net u domu? kod mene nista od jutros,,bs,negative,wifi,False,False,test
+267,Lipa Confessions,https://example.com/post/267,2025-10-17,,The new online enrollment form is so much easier than the paper one.,,en,positive,enrollment,False,False,dev
+268,Kampus Chat,https://example.com/post/268,2026-07-05,,"Napokon popravili LipaNet u domu, brzina ko nikad prije 👏",,bs,positive,wifi,False,False,dev
+269,Novine Brezovac komentari,https://example.com/post/269,2026-05-11,Gužve na parkingu kod Univerziteta Lipa,"Lepo što su napravili parking za bicikle ispred fakulteta, konačno.",,sr,positive,parking,False,False,test
+270,Forum Lipa,https://example.com/post/270,2026-08-23,Menza,"Nova teta na kasi u menzi je najdraža osoba na kampusu, uvijek nasmijana 😊",,bs,positive,cafeteria,False,False,dev
+271,Kampus Chat,https://example.com/post/271,2025-11-10,,ima li free parking negdje blizu kampusa? asking for a friend,,mixed,neutral,parking,False,False,test
+272,Forum Lipa,https://example.com/post/272,2026-09-10,Događaji na kampusu,Ima li neko viška karata za koncert u petak u studentskom domu?,,bs,neutral,events,False,False,dev
+273,Forum Lipa,https://example.com/post/273,2025-11-11,Događaji na kampusu,"tribina o zaposljavanju je u utorak u 17 sati, dvorana 2",,hr,neutral,events,False,False,dev
+274,Kampus Chat,https://example.com/post/274,2026-07-09,,"Best lecture of the year today, prof. Hrastic brought actual robots to class.",,en,positive,professors,False,False,dev
+275,Novine Brezovac komentari,https://example.com/post/275,2026-02-13,Studenti ocijenili nastavnike Univerziteta Lipa,"Ma prof. Grabovac je poseban lik, to ću ti samo reći.",,bs,negative,professors,False,True,dev
+276,Kampus Chat,https://example.com/post/276,2026-06-24,,"pancakes u menzi subotom su top tier, highly recommend",,mixed,positive,cafeteria,False,False,test
+277,Novine Brezovac komentari,https://example.com/post/277,2026-09-13,Univerzitet Lipa mijenja pravila ispitnih rokova,Prijava ispita za junski rok ide do 1. juna preko eLipe.,,bs,neutral,exams,False,False,dev
+278,Kampus Chat,https://example.com/post/278,2025-12-21,,"Parking iza zgrade A je cijeli dan zatvoren, a nigdje nema objave.",,bs,negative,parking,True,False,test
+279,Kampus Chat,https://example.com/post/279,2025-11-16,,Prof. Jasenović je pomjerio konsultacije na petak u 10.,,bs,neutral,professors,False,False,dev
+280,Lipa Confessions,https://example.com/post/280,2026-05-16,,"Lipa Fest je bio literally the best, vidimo se next year 🔥",,mixed,positive,events,False,False,test
+281,Kampus Chat,https://example.com/post/281,2026-05-17,,"Lipa Fest sinoć bio baš dobar, bend iz Brezovca razvalio 🔥",,bs,positive,events,False,False,dev
+282,Kampus Chat,https://example.com/post/282,2026-03-01,,"novi wifi u domu je brz kao munja, konacno mogu da gledam predavanja online",,sr,positive,wifi,False,False,test
+283,Forum Lipa,https://example.com/post/283,2026-01-16,Kolokviji - iskustva,Prošla sam! Hoću li sad konačno spavati? 😴🎉,,hr,positive,exams,False,False,dev
+284,Forum Lipa,https://example.com/post/284,2026-07-12,Gdje jesti na kampusu?,"Kruh u mnzi je bio star, a juha hladna. Opet.",,hr,negative,cafeteria,False,False,test
+285,Novine Brezovac komentari,https://example.com/post/285,2026-02-20,Gužve na parkingu kod Univerziteta Lipa,Da li se plaća parking vikendom?,,bs,neutral,parking,False,False,dev
+286,Novine Brezovac komentari,https://example.com/post/286,2026-03-30,Studentska menza u Brezovcu poskupljuje obroke,"Red za ručak se proteže do stepenica, a pauza traje 20 minuta.",,bs,negative,cafeteria,False,False,dev
+287,Kampus Chat,https://example.com/post/287,2026-06-09,,jok,,bs,neutral,other,False,False,dev
+288,Forum Lipa,https://example.com/post/288,2026-03-19,Cafeteria food,Does the cafeteria have gluten-free options?,,en,neutral,cafeteria,False,False,dev
+289,Forum Lipa,https://example.com/post/289,2026-01-07,Profesori - iskustva,"Doc. Borović je obećao da će predavanja biti snimljena, ali nijedno nije.",,sr,negative,professors,False,False,test
+290,Forum Lipa,https://example.com/post/290,2026-01-21,Kolokviji - iskustva,"exam je bio insane, ne mogu vise",,mixed,negative,exams,False,False,test
+291,Forum Lipa,https://example.com/post/291,2026-06-11,Profesori - iskustva,Asistent Topolić je danas bio drugačiji nego inače.,,bs,neutral,professors,False,True,dev
+292,Kampus Chat,https://example.com/post/292,2025-11-21,,"Parking kod menze je pun već od sedam ujutru, ne znam gde da ostavim kola.",,sr,negative,parking,False,False,test
+293,Lipa Confessions,https://example.com/post/293,2025-11-17,,Neko je opet parkirao na mjesto za invalide ispred rektorata. Sramota.,,bs,negative,parking,False,False,dev
+294,Novine Brezovac komentari,https://example.com/post/294,2026-06-05,Studenti ocijenili nastavnike Univerziteta Lipa,Nije mi jasno je li prof. Jasenović rekao da je kolokvij obavezan ili nije.,,hr,neutral,professors,False,True,dev
+295,Forum Lipa,https://example.com/post/295,2026-07-13,Događaji na kampusu,"karaoke night u domu was amazing, ekipa je bila top",,mixed,positive,events,False,False,dev
+296,Kampus Chat,https://example.com/post/296,2025-11-06,,Kolokvij iz matematike bio je teži nego ispit prošle godine. Niko nije završio na vrijeme.,,bs,negative,exams,False,False,dev
+297,Kampus Chat,https://example.com/post/297,2026-03-20,,"nemam pojma tko je smislio da se wifi gasi u ponoc, ucim do 2 😤",,hr,negative,wifi,False,False,test
+298,Lipa Confessions,https://example.com/post/298,2026-03-10,,"Studentska služba danas brzo završila sve, svaka čast, nisam čekala ni 5 minuta.",,bs,positive,enrollment,False,False,test
+299,Kampus Chat,https://example.com/post/299,2026-03-10,,Da li menza ima posni meni tokom posta?,,sr,neutral,cafeteria,False,False,dev
+300,Forum Lipa,https://example.com/post/300,2026-04-05,Gdje jesti na kampusu?,Radi li menza za vrijeme ljetnih praznika?,,hr,neutral,cafeteria,False,False,test

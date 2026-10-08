@@ -1,0 +1,24 @@
+# Runs the tests on every push. Slow tests (which need the ~1 GB XLM-R model)
+# are skipped, so CI never downloads a model.
+name: tests
+
+on: [push]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up uv and Python 3.12
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Install the exact package versions from uv.lock
+        run: uv sync --locked
+
+      - name: Run the tests (slow tests are skipped)
+        run: uv run pytest
